@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout - Flexbox Edition</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav class="navbar container">
+            <div class="logo"><img src="./assets/image/logo2.png" alt="" style="width: 50px;"></div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-btn">☰</label>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./pages/about.html">About</a></li>
+                <li><a href="./pages/contact.html">Services</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Banner Section -->
+        <section id="hero-banner" class="container">
+            <div class="hero-content">
+                <h1>Welcome to my Affordable  Laptops</h1>
+                <p>Portable Device – A laptop is a computer designed to be easily carried and used anywhere.
+
+                </p>
+                <button class="primary-button">About Me</button>
+                <button class="secondary-button">Get in Touch</button>
+            </div>
+            <div class="hero-image">
+                <img src="./assets/image/main.jpg" alt="Banner Image">
+            </div>
+        </section>
+
+        <!-- Service Section -->
+        <section id="service">
+            <div class="container">
+                <div class="service-wrapper">
+                    <!-- Header -->
+                    <div class="service-header">
+                        <h3>My Services</h3>
+                        <p>Learn more about Laptops</p>
+                    </div>
+
+                    <!-- Services List -->
+                    <div class="service-list">
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="./assets/image/loptop1.jpg" alt="Website Development" />
+                                <h3>ACER </h3>
+                            </div>
+                            <div class="card-body">
+                                <p>All-in-One Design – It combines the screen, keyboard, touchpad, and hardware in one compact unit.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="secondary-button">Learn more</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="./assets/image/loptop2.jpg" alt="Website Development" />
+                                <h3>ASUS</h3>
+                            </div>
+                            <div class="card-body">
+                                <p>Battery Operated – Laptops can run on batteries, making them usable without a direct power source</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="secondary-button">Learn more</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="./assets/image/loptop3.jpg" alt="Website Development" />
+                                <h3>HP</h3>
+                            </div>
+                            <div class="card-body">
+                                <p>Wireless Connectivity – Most laptops have Wi-Fi and Bluetooth for internet and device connections</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="secondary-button">Learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <p>© 2025 - Web Development. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
